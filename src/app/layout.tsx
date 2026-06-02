@@ -1,0 +1,112 @@
+﻿import "./globals.css";
+import type { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/react";
+import ScrollBackground from "@/components/background/ScrollBackground";
+import PerformanceMonitor from "@/components/system/PerformanceMonitor";
+import { getPersonSchema } from "@/data/personal";
+
+export const metadata = {
+  title: "Nguyễn Quang Huy - Middle Frontend Developer | React, TypeScript, Next.js",
+  description: "Passionate Middle Frontend Developer with 3.5 years of experience building scalable web applications. Expert in React, TypeScript, and modern web technologies. Available for freelance and full-time opportunities.",
+  keywords: [
+    "Frontend Developer",
+    "React Developer",
+    "TypeScript Developer",
+    "Next.js Developer",
+    "Web Developer",
+    "UI/UX Developer",
+    "JavaScript Developer",
+    "Ho Chi Minh City",
+    "Vietnam",
+    "Freelance Developer"
+  ].join(", "),
+  authors: [{ name: "Nguyễn Quang Huy" }],
+  creator: "Nguyễn Quang Huy",
+  publisher: "Nguyễn Quang Huy",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://portfolio-virid-pi-75.vercel.app/'), // Replace with your actual domain
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: "Nguyễn Quang Huy - Middle Frontend Developer",
+    description: "Passionate Middle Frontend Developer with 3.5 years of experience building scalable web applications. Expert in React, TypeScript, and modern web technologies.",
+    url: 'https://portfolio-virid-pi-75.vercel.app/', // Replace with your actual domain
+    siteName: "Nguyễn Quang Huy Portfolio",
+    images: [
+      {
+        url: '/images/ava.png',
+        width: 1200,
+        height: 630,
+        alt: 'Nguyễn Quang Huy - Middle Frontend Developer',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Nguyễn Quang Huy - Middle Frontend Developer",
+    description: "Passionate Middle Frontend Developer with 3.5 years of experience building scalable web applications.",
+    images: ['/images/ava.png'],
+    creator: '@your_twitter_handle', // Replace with your Twitter handle
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-verification-code', // Replace with your Google Search Console verification code
+    yandex: 'your-yandex-verification-code', // Optional
+    yahoo: 'your-yahoo-verification-code', // Optional
+  },
+  icons: {
+    icon: '/images/icon.ico',
+  },
+};
+
+export default function RootLayout({ children }: { children: ReactNode }) {
+  return (
+    <html lang="en">
+      <head>
+        {/* Preconnect to external domains for performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        
+        {/* Favicon */}
+        <link rel="icon" href="/images/icon.ico" sizes="any" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        
+        {/* Manifest */}
+        <link rel="manifest" href="/manifest.json" />
+        
+        {/* Theme color */}
+        <meta name="theme-color" content="#6366f1" />
+        
+        {/* Structured Data (Schema.org Person) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(getPersonSchema()) }}
+        />
+      </head>
+      <body>
+        <PerformanceMonitor />
+        <ScrollBackground />
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  );
+}
