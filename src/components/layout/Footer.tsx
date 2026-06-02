@@ -19,7 +19,6 @@ const navigationLinks = [
   { name: "Skills", href: "#skills" },
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
-  { name: "Blog", href: "#blog" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -27,7 +26,6 @@ const resourceLinks = [
   { name: "Resume", href: "#resume" },
   { name: "CV", href: RESUME_PDF_URL, openInNewTab: true },
   { name: "Portfolio", href: "#home" },
-  { name: "Blog Posts", href: "#blog" },
 ];
 
 const socialLinks = [

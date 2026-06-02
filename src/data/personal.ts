@@ -2,19 +2,19 @@
 
 export const personalInfo = {
   name: "Nguyễn Quang Huy",
-  jobTitle: "Middle Frontend Developer",
+  jobTitle: "Middle Fullstack Developer",
   description:
-    "Middle Frontend Developer building scalable, high-performance web applications with React, Next.js, and TypeScript. Focused on clean code and real-world impact.",
+    "Middle Fullstack Developer with 3+ years of experience, transitioning from strong frontend expertise (ReactJS, Vue.js, Angular) to backend development with Node.js and NestJS.",
   url: BASE_URL,
   image: `${BASE_URL}/images/ava.png`,
   sameAs: [
     "https://github.com/huy1231a/",
-    "https://www.linkedin.com/in/t%C3%B9ng-%C4%91%E1%BB%97-v%C4%83n-475b8637a/",
-    "https://twitter.com/your-twitter",
+    "https://infomation-for-me.vercel.app/",
+    "https://www.facebook.com/nqh2020/",
   ],
   worksFor: {
     "@type": "Organization" as const,
-    name: "Freelance",
+    name: "IVC (ISB Vietnam)",
   },
   address: {
     "@type": "PostalAddress" as const,
@@ -25,10 +25,16 @@ export const personalInfo = {
     "React",
     "TypeScript",
     "Next.js",
+    "Vue.js",
+    "Angular",
+    "Node.js",
+    "NestJS",
+    "Prisma",
+    "Redux",
+    "Vuex",
     "JavaScript",
     "Web Development",
-    "Frontend Development",
-    "UI/UX Design",
+    "Fullstack Development",
   ],
 } as const;
 

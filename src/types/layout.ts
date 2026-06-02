@@ -4,8 +4,6 @@
   "skills",
   "experience",
   "projects",
-  "testimonials",
-  "blog",
   "resume",
   "contact",
 ] as const;

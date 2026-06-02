@@ -87,7 +87,7 @@ export default function Hero() {
             transition={transition}
             className="mt-4 text-xl text-gray-400 sm:text-2xl md:mt-6"
           >
-            Building scalable, high-performance web applications
+            Middle Fullstack Developer - React, Node.js, NestJS
           </motion.p>
 
           {/* Description */}
@@ -96,7 +96,7 @@ export default function Hero() {
             transition={transition}
             className="mt-6 max-w-xl text-base leading-relaxed text-gray-500 md:mt-8 md:text-lg"
           >
-            Middle Frontend Engineer with 3.5 years turning complex business needs into fast, maintainable interfaces. React, Next.js, Vue, TypeScript — focused on clean code and real-world impact.
+            3+ years of experience building scalable web applications, transitioning from strong frontend delivery to robust backend development with Node.js and NestJS.
           </motion.p>
 
           {/* CTAs */}

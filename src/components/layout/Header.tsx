@@ -105,9 +105,9 @@ export default function Header() {
         }`}
         role="banner"
       >
-        <div className="mx-auto flex h-full max-w-6xl items-center justify-between px-6"> 
+        <div className="mx-auto flex h-full w-full max-w-6xl items-center px-6">
 
-          <nav className="hidden lg:block" aria-label="Main navigation">
+          <nav className="hidden lg:block lg:mx-auto" aria-label="Main navigation">
             <ul className="flex items-center gap-1">
               {SECTION_IDS.map((sectionId) => {
                 const label = sectionIdToLabel(sectionId);
@@ -165,7 +165,7 @@ export default function Header() {
             ref={menuButtonRef}
             type="button"
             onClick={openMenu}
-            className="flex h-10 w-10 items-center justify-center rounded-lg text-white transition-colors hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30 lg:hidden"
+            className="ml-auto flex h-10 w-10 items-center justify-center rounded-lg text-white transition-colors hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30 lg:hidden"
             aria-label="Open menu"
             aria-expanded={menuOpen}
             aria-haspopup="true"

@@ -5,10 +5,10 @@ import Image from "next/image";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 
 const highlights = [
-  "3.5 years shipping production web applications",
-  "React, Next.js, Node.js, Vue, TypeScript",
-  "Enterprise dashboards, banking UIs, and operations tools",
-  "Clean code, performance, and maintainable architecture",
+  "3+ years shipping production-grade web applications",
+  "ReactJS, Next.js, Vue.js, Angular, TypeScript",
+  "Transitioning to backend with Node.js and NestJS",
+  "Legacy migration, real-time features, and performance optimization",
 ];
 
 export default function About() {
@@ -44,7 +44,7 @@ export default function About() {
           >
             <Image
               src="/images/width_800.jpg"
-              alt="Nguyễn Quang Huy - Frontend Engineer"
+              alt="Nguyễn Quang Huy - Middle Fullstack Developer"
               fill
               className="object-cover object-top rounded-full select-none"
               sizes="(max-width: 640px) 200px, (max-width: 768px) 220px, (max-width: 1024px) 240px, 260px"
@@ -64,15 +64,15 @@ export default function About() {
           </h2>
 
           <p className="text-lg text-neutral-300 leading-relaxed">
-            I&apos;m a <span className="text-primary font-medium">Middle Frontend Engineer</span> with 3.5 years turning business problems into reliable, fast web applications — from banking UIs and KPI dashboards to warehouse and accounting systems.
+            I&apos;m a <span className="text-primary font-medium">Middle Fullstack Developer</span> with 3+ years of experience delivering reliable web applications, from enterprise dashboards to real-time camera-based systems.
           </p>
 
           <p className="text-neutral-400 leading-relaxed">
-            I work mainly with React, Next.js, Vue, and TypeScript, and I care about solving real problems: clear requirements, sensible architecture, and code that stays maintainable as products grow.
+            My core frontend stack includes ReactJS, Next.js, Vue.js, Angular, and TypeScript. I&apos;m currently expanding deeply into backend development with Node.js and NestJS.
           </p>
 
           <p className="text-neutral-400 leading-relaxed">
-            I prioritize clean code, performance, and user experience. Whether it&apos;s a new feature or refactoring legacy code, I aim for impact that both users and engineering teams can feel.
+            I focus on clean architecture, performance, and maintainable code. Whether implementing new features or migrating legacy systems, I aim for practical impact and long-term product stability.
           </p>
 
           <ul className="space-y-4 pt-2" aria-label="Highlights">

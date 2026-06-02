@@ -45,7 +45,7 @@ export default function Projects() {
           transition={{ delay: 0.2 }}
           viewport={{ once: true }}
         >
-          From enterprise KPI dashboards to banking UIs and group payments — problem, solution, and impact.
+          From enterprise KPI platforms to internal dashboards and personal products - problem, solution, and impact.
         </motion.p>
       </div>
 
