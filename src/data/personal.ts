@@ -4,12 +4,12 @@ export const personalInfo = {
   name: "Nguyễn Quang Huy",
   jobTitle: "Middle Fullstack Developer",
   description:
-    "Middle Fullstack Developer with 3+ years of experience, transitioning from strong frontend expertise (ReactJS, Vue.js, Angular) to backend development with Node.js and NestJS.",
+    "Middle Fullstack Developer with 4+ years of experience, transitioning from strong frontend expertise (ReactJS, Vue.js, Angular) to backend development with Node.js and NestJS.",
   url: BASE_URL,
   image: `${BASE_URL}/images/ava.png`,
   sameAs: [
     "https://github.com/huy1231a/",
-    "https://infomation-for-me.vercel.app/",
+    "https://www.linkedin.com/in/nguyen-quang-huy-5a759b1b3/",
     "https://www.facebook.com/nqh2020/",
   ],
   worksFor: {

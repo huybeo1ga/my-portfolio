@@ -2,7 +2,7 @@
 
 export const socialLinksConfig: SocialLinksConfig = {
   github: "https://github.com/huy1231a/",
-  linkedin: "https://infomation-for-me.vercel.app/",
+  linkedin: "https://www.linkedin.com/in/nguyen-quang-huy-5a759b1b3/",
   facebook: "https://www.facebook.com/nqh2020/",
 };
 

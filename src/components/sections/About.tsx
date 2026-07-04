@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 
 const highlights = [
-  "3+ years shipping production-grade web applications",
+  "4+ years shipping production-grade web applications",
   "ReactJS, Next.js, Vue.js, Angular, TypeScript",
   "Transitioning to backend with Node.js and NestJS",
   "Legacy migration, real-time features, and performance optimization",
@@ -64,7 +64,7 @@ export default function About() {
           </h2>
 
           <p className="text-lg text-neutral-300 leading-relaxed">
-            I&apos;m a <span className="text-primary font-medium">Middle Fullstack Developer</span> with 3+ years of experience delivering reliable web applications, from enterprise dashboards to real-time camera-based systems.
+            I&apos;m a <span className="text-primary font-medium">Middle Fullstack Developer</span> with 4+ years of experience delivering reliable web applications, from enterprise dashboards to real-time camera-based systems.
           </p>
 
           <p className="text-neutral-400 leading-relaxed">

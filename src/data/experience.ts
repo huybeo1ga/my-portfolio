@@ -142,7 +142,7 @@ export const experiences: ExperienceType[] = [
 ];
 
 export const experienceStats: ExperienceStat[] = [
-  { number: "3+", label: "Years Experience" },
+  { number: "4+", label: "Years Experience" },
   { number: "10+", label: "Projects Completed" },
   { number: "20+", label: "Technologies" },
   { number: "2", label: "Companies" },

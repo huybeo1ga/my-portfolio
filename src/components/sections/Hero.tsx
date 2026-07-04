@@ -96,7 +96,7 @@ export default function Hero() {
             transition={transition}
             className="mt-6 max-w-xl text-base leading-relaxed text-gray-500 md:mt-8 md:text-lg"
           >
-            3+ years of experience building scalable web applications, transitioning from strong frontend delivery to robust backend development with Node.js and NestJS.
+            4+ years of experience building scalable web applications, transitioning from strong frontend delivery to robust backend development with Node.js and NestJS.
           </motion.p>
 
           {/* CTAs */}

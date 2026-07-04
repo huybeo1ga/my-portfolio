@@ -28,7 +28,7 @@ export const projects: Project[] = [
     slug: "facedb",
     description:
       "Enterprise fullstack module focused on reliable architecture and scalable delivery. Built features across React frontend and Node.js/NestJS backend services for internal platform workflows.",
-    image: "/images/dashboard.png",
+    image: "/images/facedb.png",
     domain: "Enterprise",
     category: "client",
     liveUrl: "",
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     slug: "fujia-banking-ecommerce",
     description:
       "Built a multifunctional e-commerce web application with complex ordering flows and dynamic forms, focusing on maintainable state architecture and performance optimization.",
-    image: "/images/tomaho.png",
+    image: "/images/bank.jpg",
     domain: "Finance",
     category: "client",
     liveUrl: "",
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     slug: "crm-dashboard",
     description:
       "Personal project: dashboard for user management and reporting, with role-oriented layout blocks and event-driven interaction modules.",
-    image: "/images/dashboard.png",
+    image: "/images/wordanalytics.jpg",
     domain: "Personal",
     category: "personal",
     liveUrl: "https://my-workroom-dashboard.vercel.app/dashboard",
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     slug: "movie-film",
     description:
       "Personal project using Next.js and NextAuth authentication flow. Implemented API calls via Prisma Client and client API routes.",
-    image: "/images/portfolio.jpg",
+    image: "/images/corpcomment.jpg",
     domain: "Personal",
     category: "personal",
     liveUrl: "",
@@ -106,7 +106,7 @@ export const projects: Project[] = [
     slug: "akademi-dashboard",
     description:
       "Personal dashboard project focused on reusable layout blocks and event-based page interactions.",
-    image: "/images/dashboard.png",
+    image: "/images/rmtdev.jpg",
     domain: "Personal",
     category: "personal",
     liveUrl: "",
